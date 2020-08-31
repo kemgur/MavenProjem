@@ -26,7 +26,8 @@ public class Day08_02_BeforeAfterClass {
     public void test2() {
         System.out.println("test1 calisti");
     }
-    @AfterClass//
+    @AfterClass//Bu annotation'a sahip olan method, her clastaki tester
+    // calistirildiktan sonra calisir.
     public static void tearDown(){
         System.out.println("tearDown calisti");
 
